@@ -1,0 +1,69 @@
+body {
+    background-color: #333;
+    color: #333;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quote-box {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 500px;
+    background-color: #fcf7dd;
+    box-shadow: 2px 2px 4px #fafef2;
+    border-radius: 5px;
+}
+
+.quote-text {
+    text-align: center;
+    margin: 25px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+#quote-box .quote-buttons {
+    width: 450px;
+    margin: auto;
+    display: block;
+}
+
+#quote-box #new-quote {
+    float: right;
+    padding: 5px;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#quote-box #tweet-quote {
+    float: left;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+}
+
+#text {
+    font-size: 1.5em;
+}
+
+button {
+    background-color: #fcf7dd;
+    box-shadow: 2px 2px 4px #fafef2;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    font-family: "Raleway", sans-serif;
+}
